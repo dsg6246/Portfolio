@@ -1,41 +1,48 @@
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     background-color: #333;
     color: white;
     padding: 10px 20px;
 }
-header nav ul{
+
+header nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center; 
-    gap: 100px;    
+    justify-content: center;
+    gap: 100px;
     /* text-align: center; */
 }
-header nav ul li a{
+
+header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     text-decoration: underline;
 }
+
 /* Hero */
-.hero-content{
-    
-    text-align: center ;
+.hero-content {
+
+    text-align: center;
     padding: 50px;
-    
+
     color: white;
     background-color: rgb(24, 179, 24);
 }
-.hero-content h1{
+
+.hero-content h1 {
     font-size: 2rem;
     margin: 20px 0;
 }
-.cta-button{
+
+.cta-button {
     background-color: black;
     padding: 10px;
     color: white;
@@ -43,8 +50,13 @@ header nav ul li a:hover{
     font-weight: bold;
     border-radius: 5px;
 }
-.cta-button:hover{
+
+.cta-button:hover {
     text-decoration: underline;
 }
+
 /* About section */
-.about{text-align: center;}
+.about {
+    text-align: center;
+    background-color: lightgray;
+}
