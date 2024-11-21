@@ -68,6 +68,7 @@ header nav ul li a:hover {
 }
 /* skills section */
 .skills{
+    background-color: lightblue;
     padding: 50px 20px;
     border-radius: 30px;
     text-align: center;
@@ -82,6 +83,27 @@ header nav ul li a:hover {
     flex-wrap: wrap;
 }
 .skill-item{
+    padding: 20px;
+    background-color: #95a5a6;
+    border-radius: 10px;
+    width: 25%;
+}
+/* Image section */
+.image{
+    padding: 50px 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+.image h2{
+    font-size: 2.5rem;
+}
+.image-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.image-item{
     padding: 20px;
     background-color: #95a5a6;
     border-radius: 10px;
