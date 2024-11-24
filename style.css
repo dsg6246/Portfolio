@@ -156,7 +156,7 @@ p{
     text-align: center;
 }
 .contacts-form input, .contact-form textarea {
-    width:100%;
+    width:90%;
     padding: 12px;
     margin-bottom: 15px;
     border: none;
