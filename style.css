@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -16,7 +16,12 @@ header nav ul {
     gap: 100px;
     /* text-align: center; */
 }
-
+.left{
+    justify-items: end;
+    gap: 0px;
+    justify-content: left;
+   
+}
 header nav ul li a {
     color: white;
     text-decoration: none;
@@ -29,7 +34,7 @@ header nav ul li a:hover {
 
 /* Hero */
 .hero-content {
-
+    font-family: cursive;
     text-align: center;
     padding: 50px;
     color: white;
@@ -37,11 +42,13 @@ header nav ul li a:hover {
 }
 
 .hero-content h1 {
+    font-family:cursive;
     font-size: 4rem;
     margin: 20px 0;
 }
 
 .cta-button {
+    font-family:Arial, Helvetica, sans-serif;
     background-color: black;
     padding: 10px;
     color: white;
@@ -60,10 +67,10 @@ header nav ul li a:hover {
     background-color: lightgray;
     padding: 50px 20px;
 }
-.about h2{
+h2{
     font-size: 2rem;
 }
-.about p{
+p{
     font-size: 1rem;
 }
 /* skills section */
@@ -108,4 +115,74 @@ header nav ul li a:hover {
     background-color: #95b5a6;
     border-radius: 10px;
     width: 25%;
+}
+/* contact */
+.contact{
+    background-color: black;
+    color: #08f400;
+    padding: 50px 20px;
+    text-align: center;
+}
+.contact h2{font-size: 2.5rem;}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.contact-info{
+    width: 45%;
+}
+.contact-item{
+    background-color:#333 ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact-item a{
+    color: #08f400;
+    text-decoration: none;
+}
+.contact-item a:hover{
+    text-decoration: underline;
+}
+.contact-form{
+    background-color: #333;
+    padding: 20px;
+    width: 45%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact-form input, .contact-form textarea {
+    width:100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+}
+.contact-form button[type="submit"] {
+    background-color:#333;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button[type="submit"]:hover {
+    background-color: whitesmoke;
+    color: #333;
+}
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
 }
